@@ -1,14 +1,15 @@
-'use strict'
+'use strict';
 
-let result = new Array();
+const result = new Array();
 for (let i = 0; i < 100; i++) {
-    let randomNumber = Math.floor(Math.random() * 100);
-    result[i] = randomNumber;
-    console.log(randomNumber);
+  const randomNumber = Math.floor(Math.random() * 100);
+  result[i] = randomNumber;
+  console.log(randomNumber);
 }
 
 console.log('Чётные:');
-for (let i = 0; i < result.length; i++)
-    if (result[i] % 2 == 0) {
-        console.log(result[i]);
-    }
+for (let i = 0; i < result.length; i++) {
+  if (result[i] % 2 === 0) {
+    console.log(result[i]);
+  }
+}
