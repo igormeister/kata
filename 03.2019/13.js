@@ -1,6 +1,6 @@
 'use strict';
 
-const array = [5, 4, 3, 2, 1];
+const array = [1, 2, 4, 3, 5];
 let counter = 0;
 let swap = 0;
 for (let i = 0; i < array.length; i++) {
@@ -28,10 +28,12 @@ console.log('Количество свапов:' + swap);
 console.log('Количество проверок:' + counter);
 if (O === n2) {
   console.log('Худший вариант:' + O);
-} else if (O < n2) {
-  console.log('Средний вариант:' + O);
-} else if (O === n) {
+}
+else if (O === n) {
   console.log('Лучший вариант:' + O);
+}
+else if (O < n2) {
+  console.log('Средний вариант:' + O);
 }
 
 
