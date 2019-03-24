@@ -1,6 +1,6 @@
 'use strict';
 
-const array = [1, 2, 4, 3, 5];
+const array = [5, 4, 3, 2, 1];
 let counter = 0;
 let swap = 0;
 for (let i = 0; i < array.length; i++) {
