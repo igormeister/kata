@@ -1,8 +1,8 @@
 'use strict';
 
 const arr = array => {
+  var max = array[0];
   for (let i = 0; i < array.length; i++) {
-    var max = array[0];
     if (array[i] > max) {
       max = array[i];
     }

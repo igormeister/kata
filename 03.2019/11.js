@@ -23,5 +23,4 @@ for (const model in cars) {
   console.log(model);
   const car = cars[model];
   kata(car);
-
 }
